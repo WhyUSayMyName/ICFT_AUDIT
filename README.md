@@ -108,6 +108,17 @@ proofs/
 
 The project does not build from a clean checkout, which is finding L-03 in the report. Two dependency files need to be present for the imports to resolve, and `script/` has to be excluded from compilation because an emoji sits inside an ordinary string literal. The report describes the proper fix; the tests themselves are unaffected once the project compiles.
 
+## License
+
+| Content | License |
+|---|---|
+| [`proofs/`](proofs/), tests and models | [MIT](LICENSE) |
+| [`report/`](report/), the PDF documents | [CC BY-ND 4.0](LICENSE-REPORT.md) |
+
+The code is free to reuse. The reports may be shared in full with attribution but
+not redistributed in modified form, which matches the publication terms stated
+inside the documents.
+
 ---
 
 Findings are published as of the review date. This report is not an endorsement of the project, and a security review reduces risk without eliminating it.
